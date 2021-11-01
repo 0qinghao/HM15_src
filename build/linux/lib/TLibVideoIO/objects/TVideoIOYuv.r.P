@@ -1,17 +1,17 @@
 objects/TVideoIOYuv.r.o: \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.cpp \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.h \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComPicYuv.h \
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.cpp :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.h :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComPicYuv.h :
- /mnt/f/NewScan_For_Compare/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.cpp \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.h \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComPicYuv.h \
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.cpp :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComPicYuv.h :
+ /mnt/c/HM_15_src/build/linux/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h :
