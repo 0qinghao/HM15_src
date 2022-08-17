@@ -2,15 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "调试编码器 P FH_1",
+            "name": "调试编码器 P FH420_1.yuv",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/bin/TAppEncoderStaticd",
             "args": [
                 "-c",
-                "${workspaceFolder}/cfg/encoder_lowdelay_main.cfg",
+                "${workspaceFolder}/cfg/encoder_lowdelay_P_main.cfg",
                 "-c",
-                "${workspaceFolder}/cfg/per-sequence/FH420_1.cfg"
+                "${workspaceFolder}/cfg/per-sequence/1_outdoor_day_cross_1920x1088.cfg"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/bin",
@@ -108,7 +108,7 @@
             "program": "${workspaceFolder}/bin/TAppEncoderStaticd",
             "args": [
                 "-c",
-                "${workspaceFolder}/cfg/encoder_intra_main_LL.cfg",
+                "${workspaceFolder}/cfg/encoder_intra_main.cfg",
                 "-c",
                 "${workspaceFolder}/cfg/per-sequence/wsl_RaceHorsesC.cfg"
             ],
