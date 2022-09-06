@@ -1187,6 +1187,8 @@ Void TEncSearch::xIntraCodingLumaBlk(TComDataCU *pcCU,
 #if HW_FRIENDLY_RDO_TEST
   UInt uiTempDist_TransDomain = m_pcRdCost->getDistPart_TransDomain(g_bitDepthY, pcInvQTedResY, uiStride, pcTransedResY, uiStride, uiWidth, uiHeight);
   fprintf(f_Distlog, "%d, %d, %d\n", uiWidth, uiTempDist, uiTempDist_TransDomain);
+  ruiDist += uiTempDist_TransDomain;
+  return;
 #endif
 
   ruiDist += uiTempDist;

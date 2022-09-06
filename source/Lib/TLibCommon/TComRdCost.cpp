@@ -429,6 +429,23 @@ UInt TComRdCost::getDistPart_TransDomain(Int bitDepth, TCoeff *pcInvQTedResY, In
     t = pcInvQTedResY[i] - pcTransedResY[i];
     SSE_TransDomain += t * t;
   }
+
+  switch (uiBlkHeight)
+  {
+  case 32:
+    SSE_TransDomain = (SSE_TransDomain + 8) >> 4;
+    break;
+  case 16:
+    SSE_TransDomain = (SSE_TransDomain + 32) >> 6;
+    break;
+  case 8:
+    SSE_TransDomain = (SSE_TransDomain + 128) >> 8;
+    break;
+  case 4:
+    SSE_TransDomain = (SSE_TransDomain + 512) >> 10;
+    break;
+  }
+
   return SSE_TransDomain;
 }
 UInt TComRdCost::getDistPart(Int bitDepth, Pel *piCur, Int iCurStride, Pel *piOrg, Int iOrgStride, UInt uiBlkWidth, UInt uiBlkHeight, TextType eText, DFunc eDFunc)

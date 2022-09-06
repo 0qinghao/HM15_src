@@ -103,7 +103,7 @@
 #define MAX_NUM_SPS 16
 #define MAX_NUM_PPS 64
 
-#define RDOQ_CHROMA_LAMBDA 1 ///< F386: weighting of chroma for RDOQ
+#define RDOQ_CHROMA_LAMBDA 0 ///< F386: weighting of chroma for RDOQ
 
 #define MIN_SCAN_POS_CROSS 4
 
