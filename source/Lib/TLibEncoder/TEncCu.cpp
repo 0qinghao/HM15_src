@@ -1311,6 +1311,9 @@ Void TEncCu::xCheckRDCostInter( TComDataCU*& rpcBestCU, TComDataCU*& rpcTempCU, 
 Void TEncCu::xCheckRDCostInter( TComDataCU*& rpcBestCU, TComDataCU*& rpcTempCU, PartSize ePartSize )
 #endif
 {
+  if(!(ePartSize == SIZE_2Nx2N || ePartSize == SIZE_NxN))
+    return;
+
   UChar uhDepth = rpcTempCU->getDepth( 0 );
   
   rpcTempCU->setDepthSubParts( uhDepth, 0 );
